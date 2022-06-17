@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    background: #0A0A0A;
+    justify-content: center;
+}
+
+.container{
+max-width: 75%;
+margin: auto;
+/* background: rgb(92, 90, 90); */
+padding: 10px;
+border-radius: 20px;
+}
+
+.card {
+    background:#1c1e20;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    color: rgb(241, 238, 238);
+    text-align: center;  
+}
+
+.card h1,h2 {
+    text-shadow:-1px 1px 0px #C29DFA,
+    -3px 3px 0px rgb(147, 79, 250),
+    -6px 6px 0px #6600FF;
+    text-align: center;
+}
+
+.TG {
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    margin: 15px;
+   
+}
+
+.T1, .T2 {
+    /* width: 49%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    width: 49%;
+}
+
+.T1_item {
+   
+    height: 400px;
+    margin: 25px;
+    background:#1c1e20;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    color: rgb(241, 238, 238);
+    text-align: center;
+}
+
+.T2_item {
+    height: 400px;
+    margin: 25px;
+    background:#1c1e20;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    color: rgb(241, 238, 238);
+    text-align: center;
+}
+
+.T1_item h1 {
+    text-shadow:-1px 1px 0px #C29DFA,
+    -3px 3px 0px rgb(147, 79, 250),
+    -6px 6px 0px #6600FF;
+    text-align: center;
+}
+
+.T2_item h1 {
+    text-shadow:-1px 1px 0px #C29DFA,
+    -3px 3px 0px rgb(147, 79, 250),
+    -6px 6px 0px #6600FF;
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+    color: #fff;
+}
+.slider{
+    max-width: 35%;
+    position: relative;
+    margin: auto;
+    height: 400px;
+    /* justify-content: center;*/
+    /* display: flex;  */
+    margin-bottom: 10px;
+    overflow: hidden;
+  
+}
+
+.slider .item{
+    text-align: center;
+    
+}
+.slider .item img {
+  
+    object-fit: cover;
+    width: 400px;
+    height: 100%;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: none !important;
+    box-shadow: none !important;
+    overflow: hidden;
+}
+
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: #1c1e20;
+}
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+
+/* .image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+} */
+
+ol{
+    display: table;
+    margin:0 auto;
+    text-align: left;
+}
+
+table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: rgb(196, 191, 191);
+    text-decoration: none;
+    margin: 0px;
+   
+}
+
+a:hover {
+    color: #C29DFA;
+}
+ .btn {
+    margin-top: 5px;
+    background: #ebe9f6;
+    color: rgb(112, 103, 211) ;
+    border-radius: 20px;
+    padding: 8px 30px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.09rem;
+ }
+ .btn:hover {
+    /* opacity: 0.8; */
+    text-shadow: 0px 0px 6px rgba(98, 67, 255, 0.7);
+ }
+ input, textarea{
+    border-radius: 5px;
+    background: #ebe9f6;
+    margin: 2px;
+ }

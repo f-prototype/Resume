@@ -7,64 +7,138 @@
     <meta name="keywords" content="frontend, junior, javascript, html, css">
     <meta name="description" content="Начинающий js разработчик претендую на вакансию junior frontend developer ">
     <title>Резюме</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <h1>Алексей</h1>
-    <img src="Без названия.jpg" alt="Картинка">
-    <p>Я <strong>студент КФУ</strong>, я только начал свой путь во <em>frontend</em>.</p>
-    <p>До недавнего времени не понимал зачем вообще сунулся в <strong>IT</strong>, но наткнувший на frontend <strong><em>полюбил</em></strong> это дело</p>
-    <hr>
-    <h2>Мои хобби</h2>
-    <ol>
-        <li>Путешествия</li>
-        <li>Музыка</li>
-        <li>Игры</li>
-    </ol>
-    <hr>
-    <h2>Мои контакты</h2>
-    <a href="https://vk.com">Вк</a>
-    <a href="https://telegram.com">Телеграм</a>
-    <hr>
-    <h2>Опыт работы</h2>
-    <table width = '300'>
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>должность</th>
-                <th>год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Фриланс</td>
-                <td>-</td>
-                <td>2021</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="slider">
+       <div class="item">
+        <img src="../Sukune/9.jpg" alt="Картинка">
+       </div>
 
-    <hr>
+       <!-- <div class="item">
+        <img src="../Sukune/5.jpg" alt="Картинка">
+       </div> -->
+
+       <div class="item">
+        <img src="../Sukune/6.jpg" alt="Картинка">
+       </div>
+
+       <div class="item">
+        <img src="../Sukune/7.jpg" alt="Картинка">
+       </div>
+
+       <!-- <div class="item">
+        <img src="../Sukune/8.jpg" alt="Картинка">
+       </div> -->
+
+       <a class="prev" onclick="minusSlide()">&#10094;</a>
+       <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
     
-    <h2>Связаться со мной</h2>
-    <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя...">
+   <div class="container">
+    <div class="TG">
+        <div class="T1 ">
+           <div class="T1_item">
+                 <h1>Алексей Сазонов</h1>
+                <p>Я <strong>студент КФУ</strong>, я только начал свой путь во <em>frontend</em>.</p>
+                <p>До недавнего времени не понимал зачем вообще сунулся в <strong>IT</strong>, но наткнувший на frontend <strong><em>полюбил</em></strong> это дело</p>
+            </div>
+        </div>
+
+        <div class="T2">
+            <div class="T1_item">
+                <h2>Мои хобби</h2>
+                <br>
+                <br>
+                <ol>
+                    <li>Путешествия</li>
+                    <li>Музыка</li>
+                    <li>Игры</li>
+                </ol>
+            </div>        
+        </div>
+    </div>
+        
+    
+
+    <div class="card info">
+        <h2>Социальные сети</h2>
+       <p>
+        <a href="https://vk.com" target="_blank">Vk</a>
+        <span>|</span>
+        <a href="https://telegram.com" target="_blank">Telegram</a>
+        <span>|</span>
+        <a href="https://github.com/f-prototype/Resume">GitHub</a>
+       </p>
+      
     </div>
 
-    <div>
-        <label for="email">Ваш email:</label>
-        <input type="text" id="email" placeholder="Введите email...">
+
+<div class="TG YY">
+    <div class="T1 contact">
+        <div class="T2_item">
+            <h2>Опыт работы</h2>
+            <table width = '300'>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>должность</th>
+                        <th>год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Фриланс</td>
+                        <td>-</td>
+                        <td>2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
     </div>
 
-    <div>
-        <label for="textArea">Ваше сообщение:</label>
-        <br>
-        <textarea id="textArea" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+    <div class="T2 contact">
+
+        <div class="T1_item">
+            <h2>Связаться со мной</h2>
+        <div>
+            <label for="name">Ваше имя:</label>
+            <br>
+            <input type="text" id="name" placeholder="Введите имя...">
+        </div>
+    
+        <div>
+            <label for="email">Ваш email:</label>
+            <br>
+            <input type="text" id="email" placeholder="Введите email...">
+        </div>
+    
+        <div>
+            <label for="textArea">Ваше сообщение:</label>
+            <br>
+            <textarea id="textArea" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+    
+        <div>
+            <button  class="btn" type="submit">Отправить</button>
+        </div>
+    
+        </div>
+
     </div>
 
-    <div>
-        <button type="submit">Отправить</button>
-    </div>
+</div>
+
+   
+    
+   
+   
+    
+    
+    
+   </div>
+   <script src="app.js"></script>
 </body>
 </html>
-
