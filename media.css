@@ -1,12 +1,59 @@
 @media (max-width: 500px){
-    .TG {
+    .position {
         display: block;
         width: 100%;
         margin: 0;
         padding: 0;
     }
 
-    .T2 {
+    .tile-left, .tile-right {
+        display: block;
+        flex-direction: row;
+    }
+    .tile-left, .tile-right {
+        margin-bottom: 15px;
+    }
+
+    .top-item {
+        height: 250px;
+    }
+
+
+    .bottom-item {
+        width: 100%;
+        height: 320px;
+    }
+
+    .first-bottom {
+        height: 200px;
+        text-align: center;
+    }
+
+    table {
+        display: inline;
+        text-align: center;
+    }
+    .container {
+        max-width: 100%;
+        
+    }
+    .bottom {
+        width: 90%;
+    }
+
+    .slider {
+        max-width: 90%;
+    }
+
+    .top-item h2 {
+        font-size: 2em;
+    }
+
+    .ol {
+        font-size: 1.5em;
+    } 
+
+    /* .T2 {
         height: 250px;
         margin-right: 15px;
     }
@@ -64,4 +111,5 @@
     .slider {
         max-width: 90%;
     }
+} */
 }
