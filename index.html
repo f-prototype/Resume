@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="frontend, junior, javascript, html, css">
+    <meta name="description" content="Начинающий js разработчик претендую на вакансию junior frontend developer ">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <div class="slider">
+       <div class="item">
+        <img src="../Sukune/5.jpg" alt="Картинка">
+       </div>
+
+       <!-- <div class="item">
+        <img src="../Sukune/5.jpg" alt="Картинка">
+       </div> -->
+
+       <div class="item">
+        <img src="../Sukune/6.jpg" alt="Картинка">
+       </div>
+
+       <div class="item">
+        <img src="../Sukune/10.jpg" alt="Картинка">
+       </div>
+
+       <!-- <div class="item">
+        <img src="../Sukune/8.jpg" alt="Картинка">
+       </div> -->
+
+       <a class="prev" onclick="minusSlide()">&#10094;</a>
+       <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+    
+   <div class="container">
+    <div class="position">
+        <div class="tile-left">
+           <div class="top-item">
+                 <h1>Алексей Сазонов</h1>
+                <p>Я <strong>студент КФУ</strong>, я только начал свой путь во <em>frontend</em>.</p>
+                <p>До недавнего времени не понимал зачем вообще сунулся в <strong>IT</strong>, но наткнувший на frontend <strong><em>полюбил</em></strong> это дело</p>
+            </div>
+        </div>
+
+        <div class="tile-right">
+            <div class="top-item">
+                <h2>Мои хобби</h2>
+                <!-- <br>
+                <br> -->
+                <ol class="ol">
+                    <li>Путешествия</li>
+                    <li>Музыка</li>
+                    <li>Игры</li>
+                </ol>
+            </div>        
+        </div>
+    </div>
+        
+    
+
+    <div class="card info">
+        <h2>Социальные сети</h2>
+       <p>
+        <a href="https://vk.com" target="_blank">Vk</a>
+        <span>|</span>
+        <a href="https://telegram.com" target="_blank">Telegram</a>
+        <span>|</span>
+        <a href="https://github.com/f-prototype/Resume">GitHub</a>
+       </p>
+      
+    </div>
+
+
+<div class="position">
+    <div class="tile-left bottom">
+        <div class="bottom-item first-bottom">
+            <h2>Опыт работы</h2>
+            <table width = '300'>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Фриланс</td>
+                        <td>-</td>
+                        <td>2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="tile-right bottom">
+
+        <div class="bottom-item">
+            <h2>Связаться со мной</h2>
+        <div>
+            <label for="name">Ваше имя:</label>
+            <br>
+            <input type="text" id="name" placeholder="Введите имя...">
+        </div>
+    
+        <div>
+            <label for="email">Ваш email:</label>
+            <br>
+            <input type="text" id="email" placeholder="Введите email...">
+        </div>
+    
+        <div>
+            <label for="textArea">Ваше сообщение:</label>
+            <br>
+            <textarea id="textArea" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+    
+        <div>
+            <button  class="btn" type="submit">Отправить</button>
+        </div>
+    
+        </div>
+
+    </div>
+
+</div>
+
+   
+    
+   
+   
+    
+    
+    
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
